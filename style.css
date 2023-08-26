@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(11, 106, 207), rgb(205, 9, 162));
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(205, 9, 162), rgb(11, 106, 207));
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 5px;
+    box-shadow: 0px 2px 5px gray;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .conteiner {
+        width: 90%;
+    }
+}
+
+h2,
+p {
+    color: rgb(17, 22, 37);
+}
+
+h2 span,
+p span {
+    color: blue;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    background: linear-gradient(to right, rgb(14, 67, 174), rgb(7, 94, 224));
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
